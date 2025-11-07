@@ -10,21 +10,11 @@ softdepend: [Vault, PerWorldInventory, Multiverse-Inventories, LuckPerms, GroupM
 folia-supported: false
 
 commands:
-  invsee:
-    description: View a player's inventory
-    permission: invseeplusplus.invsee.view
-    usage: "/invsee <username>|<uuid>"
-    aliases: [inventorysee, isee]
   endersee:
     description: View a player's ender chest
     permission: invseeplusplus.endersee.view
     usage: "/endersee <username>|<uuid>"
     aliases: [enderchestsee, esee]
-  invseeplusplusreload:
-    description: Reload InvSee++' configuration
-    permission: invseeplusplus.reload
-    usage: "/<command>"
-    aliases: ["isppreload", "invsee++reload", "is++reload"]
 
 permissions:
   invseeplusplus.*:
